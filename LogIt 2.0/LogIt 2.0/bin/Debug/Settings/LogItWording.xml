@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Wording>
+  <Phrase>
+    <VA> **VA, HC OK**</VA>
+    <POS> Customer requests a Parts Only Dispatch. ***VA, HC OK, VDI, TARP*** sending "</POS>
+    <OST> ***VA, HC OK, VDI*** Sending "</OST>
+    <HDD> Explained to the customer about data loss and the customer understands that Dell cannot be responsible for any data loss or recovery. Stated to the customer, "Just to let you know, the replacement hard drive will be blank. You will need to install the operating system and drivers after the hard drive is installed. Do you have or need the reinstallation media or do you use an image? ( Two Part Question )" The customer stated,  "</HDD>
+    <KYHD> Explained to the customer that they have "Keep Your Hard Drive" Customer understands that Dell cannot be responsible for any data loss or recovery. Stated to the customer, "Just to let you know, the replacement hard drive will be blank. You will need to install the operating system and drivers after the hard drive is installed. Do you have or need the reinstallation media or do you use an image? ( Two Part Question )" The customer stated,  "</KYHD>
+    <L1Y> Explained to the customer about data loss and the customer understands that Dell cannot be responsible for any data loss or recovery. Stated to the customer, "Just to let you know, the replacement hard drive could be blank. If so, you will need to install the operating system and drivers after the hard drive is installed. Do you have or need the reinstallation media or do you use an image? ( Two Part Question )" The customer stated, "</L1Y>
+    <HDDOST> Explained to the customer that the onsite tech will not install software and will need to take the failed drive with them. Explained to the customer about data loss and the customer understands that Dell cannot be responsible for any data loss or recovery. Stated to the customer, "Just to let you know, the replacement hard drive could be blank. If so, You will need to install the operating system and drivers after the hard drive is installed, Do you have or need the reinstallation media or do you use an image? ( Two Part Question )" The customer stated, "</HDDOST>
+    <Plastics> Stated to the customer, "If you would, please take a look at the system and verify that there are no missing screws, doors, rubber feet, cracked or broken plastics, etc.. If you find any of these things damaged or missing, please let me know and we can address any problems you find." The customer stated, "</Plastics>
+    <FRU> Explained to the customer that the part they have requested POS for is a FRU. Customer understands if they damage the part during install, Dell cannot replace the damaged part(s). Customer agrees to and understands that Dell technical support will not assist them with the installation of the part(s) and that they are responsible for installation of the part.</FRU>
+    <CIDAR> **Provided CIDAR Messaging**</CIDAR>
+  </Phrase>
+</Wording>

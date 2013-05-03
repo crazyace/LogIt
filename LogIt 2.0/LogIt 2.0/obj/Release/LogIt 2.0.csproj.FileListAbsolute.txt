@@ -1,0 +1,14 @@
+E:\Projects\LogIt 2.0\LogIt 2.0\bin\Release\LogIt 2.0.exe.config
+E:\Projects\LogIt 2.0\LogIt 2.0\bin\Release\LogIt 2.0.exe
+E:\Projects\LogIt 2.0\LogIt 2.0\bin\Release\LogIt 2.0.pdb
+E:\Projects\LogIt 2.0\LogIt 2.0\bin\Release\Xceed.Wpf.DataGrid.dll
+E:\Projects\LogIt 2.0\LogIt 2.0\bin\Release\Xceed.Wpf.Toolkit.dll
+E:\Projects\LogIt 2.0\LogIt 2.0\obj\Release\MainWindow.baml
+E:\Projects\LogIt 2.0\LogIt 2.0\obj\Release\MainWindow.g.cs
+E:\Projects\LogIt 2.0\LogIt 2.0\obj\Release\App.g.cs
+E:\Projects\LogIt 2.0\LogIt 2.0\obj\Release\LogIt 2.0_MarkupCompile.cache
+E:\Projects\LogIt 2.0\LogIt 2.0\obj\Release\LogIt 2.0.g.resources
+E:\Projects\LogIt 2.0\LogIt 2.0\obj\Release\LogIt_2._0.Properties.Resources.resources
+E:\Projects\LogIt 2.0\LogIt 2.0\obj\Release\LogIt 2.0.csproj.GenerateResource.Cache
+E:\Projects\LogIt 2.0\LogIt 2.0\obj\Release\LogIt 2.0.exe
+E:\Projects\LogIt 2.0\LogIt 2.0\obj\Release\LogIt 2.0.pdb
