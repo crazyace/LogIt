@@ -1,0 +1,54 @@
+<Window x:Class="LogIt3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="LogIt 3.0" Height="423" Width="688" ResizeMode="NoResize">
+    <Grid Margin="10,0,0,0">
+        <StackPanel Width="Auto" Height="Auto" Margin="0,0,572,0">
+            <Button x:Name="VA" Margin="5" Click="VA_Click">VA, HC OK</Button>
+            <Button x:Name="POS" Margin="5" Click="POS_Click">POS</Button>
+            <Button x:Name="OST" Margin="5" Click="OST_Click">OST</Button>
+            <Button x:Name="HDD" Margin="5" Click="HDD_Click">HDD</Button>
+            <Button x:Name="Plastics" Margin="5" Click="Plastics_Click">Plastics</Button>
+            <Button x:Name="FRU" Margin="5" Click="FRU_Click">FRU</Button>
+            <Button x:Name="CIDAR" Margin="5" Click="CIDAR_Click">CIDAR</Button>
+            <Button x:Name="Clear" Margin="5" Click="Clear_Click">Clear</Button>
+            <CheckBox x:Name="KYHD" Margin="5" Content="KK Warranty" Checked="KYHD_Checked" Unchecked="KYHD_UnChecked"></CheckBox>
+            <CheckBox x:Name="L1Y" Margin="5" Content="&lt; 1 Year" Checked="L1Y_Checked" Unchecked="L1Y_UnChecked"></CheckBox>
+            <CheckBox x:Name="HDDOST" Margin="5" Content="HDD + OST" Checked="HDDOST_Checked" Unchecked="HDDOST_UnChecked"></CheckBox>
+        </StackPanel>
+        <TabControl Margin="105,0,0,0">
+            <TabItem Header="Log 1" Name="Tab1">
+                <Grid>
+                    <RichTextBox Name="Log1Box" VerticalScrollBarVisibility="Auto" SpellCheck.IsEnabled="True" IsUndoEnabled="True" TextOptions.TextFormattingMode="Display">
+                        <RichTextBox.Resources>
+                            <Style TargetType="{x:Type Paragraph}">
+                                <Setter Property="Margin" Value="0"/>
+                            </Style>
+                        </RichTextBox.Resources>
+                        <FlowDocument>
+                            <Paragraph>
+                                Session ID:
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Log 2" Name="Tab2">
+                <Grid>
+                    <RichTextBox Name="Log2Box" VerticalScrollBarVisibility="Auto" SpellCheck.IsEnabled="True" IsUndoEnabled="True" TextOptions.TextFormattingMode="Display">
+                        <RichTextBox.Resources>
+                            <Style TargetType="{x:Type Paragraph}">
+                                <Setter Property="Margin" Value="0"/>
+                            </Style>
+                        </RichTextBox.Resources>
+                        <FlowDocument>
+                            <Paragraph>
+                                Session ID:
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

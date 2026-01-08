@@ -1,0 +1,29 @@
+<Window x:Class="LogIt3.InputDialogWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Input Required" Height="200" Width="400"
+        WindowStartupLocation="CenterOwner" ResizeMode="NoResize"
+        ShowInTaskbar="False">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" x:Name="PromptText"
+                   TextWrapping="Wrap" Margin="0,0,0,10"/>
+
+        <TextBox Grid.Row="1" x:Name="InputTextBox"
+                 VerticalAlignment="Top" Height="60"
+                 TextWrapping="Wrap" AcceptsReturn="True"/>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal"
+                    HorizontalAlignment="Right" Margin="0,10,0,0">
+            <Button Content="OK" Width="75" Height="25"
+                    Margin="0,0,10,0" Click="OK_Click" IsDefault="True"/>
+            <Button Content="Cancel" Width="75" Height="25"
+                    Click="Cancel_Click" IsCancel="True"/>
+        </StackPanel>
+    </Grid>
+</Window>
